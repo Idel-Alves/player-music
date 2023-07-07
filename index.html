@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+         <!-- Style -->
+         <link rel="stylesheet" href="./CSS/style.css">
+         <!-- Icones -->
+         <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <!-- Script -->
+        <script src="/JS/script.js" defer></script>
+        <title>Music Player</title>
+    </head>
+    <body>
+        <img src="./ASSETS/james-owen-oFHMk5fD8-s-unsplash-AFlutes.jpg">
+
+        <div class="description">
+            <h2></h2>
+            <i></i>
+        </div>
+
+        <div class="duration">
+            <div class="bar">
+              <progress value="0" max="1"></progress> 
+              <div class="point"></div>
+            </div>
+
+            <div class="time">
+                <p class="start"></p>
+                <p class="end"></p>
+            </div>
+        </div>
+
+        <div class="player">
+            <i class="ph-fill ph-skip-back arrow back"></i>
+            <i class="ph-fill ph-play playBtn"></i>
+            <i class="ph-fill ph-pause pauseBtn"></i>
+            <i class="ph-fill ph-skip-forward arrow next"></i>
+        </div>
+
+        <audio src="/MUSICAS/A Flute's Mourning - Aakash Gandhi.mp3"></audio>
+    </body>
+</html>
